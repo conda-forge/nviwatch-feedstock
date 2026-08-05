@@ -41,12 +41,6 @@ description = "Build nviwatch-feedstock with variant linux_ppc64le_ directly (wi
 [tasks."inspect-linux_ppc64le_"]
 cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/linux_ppc64le_.yaml"
 description = "List contents of nviwatch-feedstock packages built for variant linux_ppc64le_"
-[tasks."build-win_64_"]
-cmd = "rattler-build build --recipe recipe -m .ci_support/win_64_.yaml"
-description = "Build nviwatch-feedstock with variant win_64_ directly (without setup scripts)"
-[tasks."inspect-win_64_"]
-cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/win_64_.yaml"
-description = "List contents of nviwatch-feedstock packages built for variant win_64_"
 
 [feature.smithy.dependencies]
 conda-smithy = "*"
