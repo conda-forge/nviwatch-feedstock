@@ -13,7 +13,7 @@ build:
   number: 0
   skip:
     - osx
-    - win
+    - win  # procfs (a transitive dep of nviwatch) only supports Linux/Android; Windows is not supported.
   script:
     - cargo-bundle-licenses --format yaml --output THIRDPARTY.yml
     - cargo auditable install --locked --root ${{ PREFIX }} --path .
