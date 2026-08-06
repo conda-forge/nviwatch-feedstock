@@ -1,5 +1,5 @@
 context:
-  version: "0.2.3"
+  version: "0.2.4"
 
 package:
   name: nviwatch
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/msminhas93/nviwatch/archive/refs/tags/v${{ version }}.tar.gz
-  sha256: d7db388b32b63fa828198cbadcc05c1ba106faeaa0104cff320e7f012ceaecf3
+  sha256: bd20aef234951b060878ed499bbcddc2e48f7e083a32dc791536b28126ba8546
 
 build:
   number: 0
