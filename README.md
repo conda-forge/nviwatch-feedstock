@@ -11,7 +11,7 @@ Summary: A blazingly fast rust based TUI for managing and monitoring NVIDIA GPU 
 
 Development: https://github.com/msminhas93/nviwatch
 
-Documentation: https://github.com/msminhas93/nviwatch/blob/v0.2.3/README.md
+Documentation: https://github.com/msminhas93/nviwatch/blob/v0.2.4/README.md
 
 NviWatch is an interactive terminal user interface (TUI) application for monitoring NVIDIA GPU devices and processes.
 Built with Rust, it provides real-time insights into GPU performance metrics, including temperature, utilization, memory usage, and power consumption.
